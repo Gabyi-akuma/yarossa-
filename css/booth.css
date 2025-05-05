@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+.title {
+  height: 310px;
+  background-image: url(../images/booth/bg-main.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ed270d;
+  text-shadow: 1px 1px 10px #ec8c0e;
+}
+
+.title h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.title p {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.main h2 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.main h2::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #000000;
+  margin-top: 20px;
+}
+
+.booth-list{
+width:1000px;
+max-width:90%;
+margin-top: 75px;
+margin-left: auto;
+margin-right: auto;
+display:grid;
+justify-content: center;
+}
+
+.booth-list li{
+  padding:10px;
+  display: flex;
+}
+
+.booth-list img{
+  width:500px;
+}
+
+.booth-list dl {
+  width: 420px;
+  margin: 40px;
+}
+
+.booth-list dt {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.booth-list dd {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.booth-list li{
+  position:relative;
+}
+
+.link-button-area{
+  text-align: center;
+}
+
+.link-button{
+  background-color:#f4dd64;
+  display:inline-block;
+  min-width:180px;
+  line-height:48px;
+  border-radius:24px;
+  font-family: 'Montserrat',sans-serif;
+  font-size:14px;
+  text-align:center;
+  margin-top:20px;
+  cursor:pointer;
+  border:none;
+}
+
+.booth{
+  background-color:#f4dd64;
+  display:inline-block;
+  min-width:180px;
+  line-height:48px;
+  border-radius:24px;
+  font-family: 'Montserrat',sans-serif;
+  font-size:14px;
+  text-align:center;
+  margin-top:35px;
+}
+
+.footer{
+  margin-top:100px;
+}
+
+@media(max-width:800px){
+
+.booth-list{
+  margin-top: 0px;
+}
+  .booth-list li{
+    display: block;
+    flex-direction: column;
+    margin-top:45px;
+  }
+
+  .booth-list img{
+    text-align: center;
+    width: 100%;
+    height:auto;
+    margin-top:25px;
+  }
+
+  .booth-info{
+    width: 100%;
+    height: auto;
+      text-align: center;
+    }
+
+
+  
+  .booth-list dl {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 10px 0px;
+  }
+
+  .booth-list dd {
+    text-align: left;
+  }
+
+
+
+}
