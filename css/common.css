@@ -70,6 +70,65 @@ background-color: rgb(242, 220, 246)
   font-weight: bold;
 }
 
+/* =================================
+  汎用リンクボタン スタイル
+==================================== */
+
+/* (A) ボタンの共通スタイル */
+/* ここで全ページに適用される基本的なデザインを定義します */
+.link-button {
+  display: inline-block;
+  min-width: 180px;
+  line-height: 48px;
+  border-radius: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  color: #000000; /* 文字色を黒に指定 */
+  cursor: pointer;
+  border: none;
+  text-decoration: none; /* aタグのデフォルト下線を消す */
+  transition: opacity 0.3s; /* ホバー時にフワッと変わるアニメーション */
+}
+
+/* ボタンにカーソルが乗った時の共通スタイル */
+.link-button:hover {
+  opacity: 0.8; /* 少し透明にする */
+}
+
+
+/* (B) ページごとの個別スタイル（背景色の上書き） */
+/* ここでページごとに異なる背景色を定義します */
+
+/* index.html の .link-button の背景色 */
+.index-page .link-button {
+  background-color: #f7a4f3; /* 元のindex.cssで指定されていた色 */
+}
+
+/* booth.html の .link-button の背景色 */
+.booth-page .link-button {
+  background-color: #f4dd64; /* 元のbooth.cssで指定されていた色 */
+}
+
+/* contact.html の .link-button の背景色 */
+.contact-page .link-button {
+  background-color: #f4dd64; /* 元のcontact.cssで指定されていた色 */
+}
+
+.index-page .link-button:hover {
+  background-color: #e5a6f5; /* ホバー時の色 */
+}
+
+.booth-page .link-button:hover {
+  background-color: #f5eea6; /* ホバー時の色 */
+}
+
+.contact-page .link-button:hover {
+  background-color: #f5eea6; /* ホバー時の色 */
+}
+
 .footer {
   color: #fff0fa;
   background-color: #24211b;

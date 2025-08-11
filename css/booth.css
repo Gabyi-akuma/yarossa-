@@ -83,20 +83,6 @@ justify-content: center;
   text-align: center;
 }
 
-.link-button{
-  background-color:#f4dd64;
-  display:inline-block;
-  min-width:180px;
-  line-height:48px;
-  border-radius:24px;
-  font-family: 'Montserrat',sans-serif;
-  font-size:14px;
-  text-align:center;
-  margin-top:20px;
-  cursor:pointer;
-  border:none;
-}
-
 .booth{
   background-color:#f4dd64;
   display:inline-block;
