@@ -31,12 +31,12 @@ img {
 }
 
 .header{
-background-color: rgb(242, 220, 246)
+background-color: rgb(255, 255, 255)
 }
 
 .header-inner {
   max-width: 1200px;
-  background-color: rgb(242, 220, 246);
+  background-color: rgb(255, 255, 255);
   height: 100px;
   margin-left: auto;
   margin-right: auto;
