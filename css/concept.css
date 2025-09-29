@@ -79,24 +79,29 @@
   margin-top: 100px;
 }
 
-@media(max-width:800px){
+.feature-text li {
+  margin-bottom: 20px;
+}
+
+@media(max-width:800px) {
   .feature {
     display: block;
     width: 500px;
-    margin-top:45px;
+    margin-top: 45px;
   }
 
-  .feature-text{
-    margin-right:0;
+  .feature-text {
+    margin-right: 0;
   }
 
-  .reverse .feature-text{
+  .reverse .feature-text {
     margin-left: 0;
   }
 
-  .feature img{
+  .feature img {
     width: 100%;
-    height:auto;
-    margin-top:25px;
+    height: auto;
+    margin-top: 25px;
   }
+
 }

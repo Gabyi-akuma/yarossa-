@@ -79,6 +79,12 @@ justify-content: center;
   position:relative;
 }
 
+.booth-info{
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
 .link-button-area{
   text-align: center;
 }
